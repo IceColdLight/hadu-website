@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(177, 177, 177);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(131, 131, 131); 
+}
+
+* {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.wrapper {
+  font-size: calc(10px + 2vmin);
+}
+
+.headerTextContainer {
+  min-height: 100vh;
+  max-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerTextContainer h1, .headerTextContainer span {
+  color: white !important;
+  text-align: center;
+}
+
+.headerTextContainer h1 {
+  font-size: 7vh;
+  margin: 0.5vw;
+}
+
+.headerTextContainer span {
+  font-size: 2.2vh;
+  opacity: 0.8;
+}
+
+.headerTextContainer span {
+  margin: 1.5vw 0 1.5vw 0;
+  width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+
+  .headerTextContainer h1 {
+    font-size: 4.1vh;
+    margin-bottom: 2vw;
+  }
+
+  .headerTextContainer span {
+    width: 100%;
+    margin: 3vw 0 3vw 0;
+  }
+
+}
+
+
+.headerText {
+  padding: 0 5vw 0 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.playStore {
+  transition: 0.2s all;
+  width: 100% !important;
+}
+
+.playStore:hover {
+  opacity: 0.7;
+  transform: scale(1.1);
+  transition: 0.2s all;
+}
+
+.playStore a {
+  background-position: center !important;
+}
+
+.textContainer {
+  padding: 5vw;
+}
+
+.footerText {
+  margin-bottom: 1vh !important;
+  margin-top: 1vh !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
