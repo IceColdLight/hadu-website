@@ -1,0 +1,5 @@
+// Heroku Server
+"start": "serve -s build",
+
+// Local dev
+"start": "react-scripts start",
